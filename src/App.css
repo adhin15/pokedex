@@ -1,0 +1,145 @@
+body {
+  background: #3b3838;
+  font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+.menu ul {
+  list-style: none !important;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.stat-bar {
+  background: #ff4049;
+  border-radius: 30px;
+  padding-right: 10px;
+  color: #f6f6f6;
+  font-weight: bold;
+  font-size: 12px;
+  height: 100%;
+  text-align: end;
+}
+.stat-container {
+  border-radius: 30px;
+  background: #dbdbdb;
+  height: 5px;
+  max-height: 5px;
+}
+.pokemon-detail-container {
+  justify-content: center;
+  width: 100%;
+}
+.pokemon-detail-container h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.max-100 {
+  max-width: 100%;
+  overflow-wrap: initial;
+}
+.button-detail {
+  text-decoration: none;
+}
+.pokemon-card {
+  border-radius: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  min-height: 200px;
+  background: #bdbdbd;
+}
+
+.font-color {
+  color: #e9fffd;
+  font-weight: bold;
+}
+.color-secondary {
+  color: #abb8b6;
+  font-weight: bold;
+}
+.pills {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  max-width: 100%;
+  color: white;
+}
+.attribute-container {
+  background: #3b3838;
+  font-weight: bold;
+  margin-top: -40px;
+  padding: 25px;
+  padding-top: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.nav-detail {
+  font-size: 14px;
+  padding: 3px;
+  margin: 0px;
+}
+.moves-pills {
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  background: rgba(224, 224, 224, 0.5);
+  border-radius: 15px;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+.btn-catch {
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(242, 234, 162, 0.5);
+  color: white;
+}
+.btn-release {
+  font-size: 14px;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 8px;
+  padding: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #e63737;
+  color: white;
+  float: bottom;
+
+  box-shadow: 6px 6px 10px rgba(25, 28, 74, 0.3);
+}
+.button-hover :hover {
+  background: rgba(25, 28, 74, 0.9);
+  color: white;
+  font-weight: normal;
+}
+.max {
+  max-width: 600px;
+}
+.bg-transparent {
+  position: relative;
+}
+.bg-transparent:after {
+  content: "";
+  background-image: url("./img/20-202138_pokeball-symbol-png.png");
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -0.5;
+  opacity: 0.1;
+}
+.type-pills {
+  padding: 10px;
+  border-radius: 8px;
+}
